@@ -130,7 +130,7 @@ def lambda_handler(event, context):
             "chat_id": chat_id  # ты можешь передавать глобально из handler
         }
 
-        destination_url = "https://55fpmqa9k1.execute-api.eu-north-1.amazonaws.com/ddd/adhd2"
+        destination_url = "YOUR LAMBDA URL"
         response = requests.post(f"https://qstash.upstash.io/v2/publish/{destination_url}", headers=headers, json=body)
 
         if response.status_code in (200, 201):
@@ -293,7 +293,7 @@ def lambda_handler(event, context):
                 "chat_id": chat_id 
             }
             history.add_message(SystemMessage(content=message2))
-            destination_url2 = "https://55fpmqa9k1.execute-api.eu-north-1.amazonaws.com/ddd/adhd2"
+            destination_url2 = "YOUR LAMBDA URL"
             response2 = requests.post(f"https://qstash.upstash.io/v2/publish/{destination_url2}", headers=headers, json=body)
 
             if response2.status_code in (200, 201):
@@ -327,7 +327,7 @@ def lambda_handler(event, context):
                  "chat_id": chat_id 
              }
              history.add_message(SystemMessage(content=message2))
-             destination_url2 = "https://55fpmqa9k1.execute-api.eu-north-1.amazonaws.com/ddd/adhd2"
+             destination_url2 = "YOUR LAMBDA URL"
              response2 = requests.post(f"https://qstash.upstash.io/v2/publish/{destination_url2}", headers=headers, json=body)
  
              if response2.status_code in (200, 201):
