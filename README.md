@@ -4,6 +4,7 @@ A Telegram bot designed to help people with ADHD manage their tasks, time, and d
 
 ## Intallation
 To install the bot, you need to create AWS lambda, add layers, environment variables, and API endpoint and create a Telegram bot webhook
+change destination_url and destination_url2 to your lambda URL
 
 ## Features
 ### 🎯 Task Management
