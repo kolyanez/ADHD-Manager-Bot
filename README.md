@@ -3,6 +3,8 @@
 # Try it yourself!!! 
 https://t.me/ADHD_Manager_Bot
 
+The bot also supports short voice messages!
+
 A Telegram bot designed to help people with ADHD manage their tasks, time, and daily activities. Built with LangChain and GPT-4, this bot provides a friendly, conversational interface for task management and productivity support.
 
 ## Intallation
