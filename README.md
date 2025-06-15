@@ -2,6 +2,9 @@
 
 A Telegram bot designed to help people with ADHD manage their tasks, time, and daily activities. Built with LangChain and GPT-4, this bot provides a friendly, conversational interface for task management and productivity support.
 
+## Intallation
+To install the bot, you need to create AWS lambda, add layers, environment variables, and API endpoint and create a Telegram bot webhook
+
 ## Features
 ### 🎯 Task Management
 - Maintain and manage ToDo lists
@@ -40,11 +43,4 @@ A Telegram bot designed to help people with ADHD manage their tasks, time, and d
 - /short - Start a 5-minute break
 - /long - Start a 15-minute break
 - /aboutpomodoro - Learn about the Pomodoro Technique
-## Technical Stack
-- Python
-- LangChain
-- OpenAI GPT-4
-- Redis for persistence
-- Telegram Bot API
-- QStash for scheduled reminders
-- Whisper API for voice transcription
+
